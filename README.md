@@ -17,12 +17,16 @@ This is a test repository to use [p5-Git-Filter-Credentials](https://github.com/
 		required
 ```
 
+you may need special settings if you are using perlbrew or something like that.
+
 * write replacement rule to `<GIT_ROOT>/.git.filter.credentials` like this.
 
 ```
 <CLIENT_TOKEN>="actual client token"
 <CLIENT_SECRET>="actual client secret"
 ```
+
+* write the config file `<GIT_ROOT>/.git.filter.credentials` into .gitignore as it contains credentials. ***this part is VERY IMPORTANT***
 
 * embed credentials to the files. for, this repo, change config.h as following
 

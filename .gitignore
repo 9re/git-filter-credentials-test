@@ -1,0 +1,17 @@
+# git filter setting
+# write actual credential setting
+# in git-ignored file.
+.git.filter.credentials
+
+# Object files
+*.o
+*.obj
+*.elf
+
+#Libraries
+*.lib
+*.a
+*.so
+*.so.*
+
+*.out

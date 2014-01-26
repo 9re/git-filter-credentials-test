@@ -1,0 +1,7 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#define CLIENT_TOKEN CLIENT_TOKEN
+#define CLIENT_SECRET CLIENT_SECRET
+
+#endif
